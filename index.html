@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            color: #866db6;
+        }
+        .list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .pokemon {
+            background-color: #eee;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            width: calc(33.333% - 20px);
+            margin: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .pokemon img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .info {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Pokédex Menú</h1>
+        <ul class="list">
+            <li class="pokemon">
+                <img src="Gastly.png" alt="Gastly">
+                <div class="info">
+                    <h2>Gastly</h2>
+                    <p>#092</p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <img src="Haunter.png" alt="Haunter">
+                <div class="info">
+                    <h2>Haunter</h2>
+                    <p>#093</p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <img src="Gengar.png" alt="Gengar">
+                <div class="info">
+                    <h2>Gengar</h2>
+                    <p>#094</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
